@@ -1,0 +1,89 @@
+{
+  "key": "corporate_blue",
+  "name": "Corporate Blue",
+  "description": "Professional corporate theme with blue accents, perfect for business applications",
+  "tokens": {
+    "colors": {
+      "primary": "#0066CC",
+      "primaryDark": "#004C99",
+      "primaryLight": "#3385D6",
+      "secondary": "#00509E",
+      "accent": "#FF9900",
+      "success": "#28A745",
+      "warning": "#FFC107",
+      "error": "#DC3545",
+      "info": "#17A2B8",
+      "background": "#FFFFFF",
+      "backgroundAlt": "#F8F9FA",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#E9ECEF",
+      "text": "#212529",
+      "textSecondary": "#6C757D",
+      "textOnPrimary": "#FFFFFF",
+      "border": "#DEE2E6",
+      "shadow": "rgba(0, 0, 0, 0.1)",
+      "overlay": "rgba(0, 0, 0, 0.5)"
+    },
+    "typography": {
+      "fontFamily": "Segoe UI, Arial, sans-serif",
+      "fontFamilyHeading": "Segoe UI Semibold, Arial, sans-serif",
+      "fontFamilyMono": "Consolas, Monaco, monospace",
+      "fontSize": "16px",
+      "fontSizeSmall": "14px",
+      "fontSizeLarge": "18px",
+      "fontSizeH1": "32px",
+      "fontSizeH2": "28px",
+      "fontSizeH3": "24px",
+      "fontSizeH4": "20px",
+      "fontWeight": "400",
+      "fontWeightBold": "600",
+      "lineHeight": "1.5",
+      "lineHeightHeading": "1.2"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "xxl": "48px",
+      "containerPadding": "24px",
+      "sectionSpacing": "48px"
+    },
+    "borders": {
+      "radius": "4px",
+      "radiusSmall": "2px",
+      "radiusLarge": "8px",
+      "radiusRound": "50%",
+      "width": "1px",
+      "widthThick": "2px",
+      "style": "solid"
+    },
+    "shadows": {
+      "small": "0 1px 3px rgba(0, 0, 0, 0.12)",
+      "medium": "0 4px 6px rgba(0, 0, 0, 0.15)",
+      "large": "0 10px 20px rgba(0, 0, 0, 0.2)",
+      "inset": "inset 0 2px 4px rgba(0, 0, 0, 0.1)"
+    },
+    "animations": {
+      "durationFast": "150ms",
+      "durationNormal": "300ms",
+      "durationSlow": "500ms",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "easingEnter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "easingExit": "cubic-bezier(0.4, 0.0, 1, 1)"
+    },
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1440px"
+    },
+    "zIndex": {
+      "dropdown": "1000",
+      "modal": "1050",
+      "tooltip": "1060",
+      "notification": "1070"
+    }
+  }
+}

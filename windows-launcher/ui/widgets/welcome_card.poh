@@ -1,0 +1,15 @@
+Start Program
+
+# Welcome Card - Card Widget
+# Displays content in a framed box
+
+Set card_title to "My Card Title"
+Set card_body to "Card content goes here"
+
+Write "========================"
+Write card_title
+Write "------------------------"
+Write card_body
+Write "========================"
+
+End Program

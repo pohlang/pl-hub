@@ -1,0 +1,89 @@
+{
+  "key": "nature_green",
+  "name": "Nature Green",
+  "description": "Fresh nature-inspired theme with green tones, perfect for eco and outdoor applications",
+  "tokens": {
+    "colors": {
+      "primary": "#10B981",
+      "primaryDark": "#059669",
+      "primaryLight": "#34D399",
+      "secondary": "#14B8A6",
+      "accent": "#F59E0B",
+      "success": "#22C55E",
+      "warning": "#EAB308",
+      "error": "#EF4444",
+      "info": "#06B6D4",
+      "background": "#F9FAFB",
+      "backgroundAlt": "#F0FDF4",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#ECFDF5",
+      "text": "#1F2937",
+      "textSecondary": "#6B7280",
+      "textOnPrimary": "#FFFFFF",
+      "border": "#D1D5DB",
+      "shadow": "rgba(16, 185, 129, 0.15)",
+      "overlay": "rgba(0, 0, 0, 0.5)"
+    },
+    "typography": {
+      "fontFamily": "Nunito, sans-serif",
+      "fontFamilyHeading": "Montserrat, sans-serif",
+      "fontFamilyMono": "Source Code Pro, monospace",
+      "fontSize": "16px",
+      "fontSizeSmall": "14px",
+      "fontSizeLarge": "18px",
+      "fontSizeH1": "34px",
+      "fontSizeH2": "28px",
+      "fontSizeH3": "22px",
+      "fontSizeH4": "18px",
+      "fontWeight": "400",
+      "fontWeightBold": "700",
+      "lineHeight": "1.6",
+      "lineHeightHeading": "1.3"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "xxl": "48px",
+      "containerPadding": "24px",
+      "sectionSpacing": "56px"
+    },
+    "borders": {
+      "radius": "8px",
+      "radiusSmall": "4px",
+      "radiusLarge": "16px",
+      "radiusRound": "50%",
+      "width": "1px",
+      "widthThick": "2px",
+      "style": "solid"
+    },
+    "shadows": {
+      "small": "0 2px 6px rgba(16, 185, 129, 0.1)",
+      "medium": "0 6px 12px rgba(16, 185, 129, 0.15)",
+      "large": "0 12px 24px rgba(16, 185, 129, 0.2)",
+      "inset": "inset 0 2px 4px rgba(16, 185, 129, 0.08)"
+    },
+    "animations": {
+      "durationFast": "180ms",
+      "durationNormal": "350ms",
+      "durationSlow": "550ms",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "easingEnter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "easingExit": "cubic-bezier(0.4, 0.0, 1, 1)"
+    },
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1440px"
+    },
+    "zIndex": {
+      "dropdown": "1000",
+      "modal": "1050",
+      "tooltip": "1060",
+      "notification": "1070"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "plhub",
   "displayName": "PLHub",
-  "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6",
-  "version": "0.2.5",
+  "description": "PohLang Hub (PLHub) VS Code extension - Enterprise-grade UI framework, SDK management, and runtime integration for PohLang v0.7.0",
+  "version": "0.3.0",
   "publisher": "pohlang",
   "license": "MIT",
   "icon": "images/PLHUB.png",
@@ -102,28 +102,28 @@
         "pohlangHub.pohlangRepo": {
           "type": "string",
           "default": "AlhaqGH/PohLang",
-          "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6"
+          "description": "GitHub repository for PohLang language runtime (owner/repo format)"
         },
         "pohlangHub.plhubRepo": {
           "type": "string",
           "default": "AlhaqGH/PLHub",
-          "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6"
+          "description": "GitHub repository for PL-Hub development environment (owner/repo format)"
         },
         "pohlangHub.autoUpdate": {
           "type": "boolean",
           "default": true,
-          "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6"
+          "description": "Automatically check for and download runtime/SDK updates"
         },
         "pohlangHub.updateIntervalDays": {
           "type": "number",
           "default": 7,
           "minimum": 0,
-          "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6"
+          "description": "Number of days between automatic update checks (0 = check every time)"
         },
         "pohlangHub.sdkTagOverride": {
           "type": "string",
           "default": "",
-          "description": "PohLang Hub (PLHub) VS Code extension - SDK management, project tools, and runtime integration for PohLang v0.6.6"
+          "description": "Specific SDK version/tag to use (leave empty for latest release)"
         },
         "pohlangHub.assetPattern": {
           "type": "string",

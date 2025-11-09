@@ -1,0 +1,89 @@
+{
+  "key": "pastel_dream",
+  "name": "Pastel Dream",
+  "description": "Soft pastel theme with gentle colors and smooth transitions, ideal for lifestyle and wellness apps",
+  "tokens": {
+    "colors": {
+      "primary": "#B4A7D6",
+      "primaryDark": "#9A8BC4",
+      "primaryLight": "#D4C4E8",
+      "secondary": "#FFB6C1",
+      "accent": "#FFD1DC",
+      "success": "#98D8C8",
+      "warning": "#F7DC6F",
+      "error": "#F1948A",
+      "info": "#AED6F1",
+      "background": "#FFF9F0",
+      "backgroundAlt": "#FFF5E6",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#FFF0F5",
+      "text": "#4A4A4A",
+      "textSecondary": "#8A8A8A",
+      "textOnPrimary": "#FFFFFF",
+      "border": "#E8D5E3",
+      "shadow": "rgba(180, 167, 214, 0.2)",
+      "overlay": "rgba(255, 249, 240, 0.95)"
+    },
+    "typography": {
+      "fontFamily": "Quicksand, Comfortaa, sans-serif",
+      "fontFamilyHeading": "Pacifico, Quicksand, cursive",
+      "fontFamilyMono": "Courier Prime, monospace",
+      "fontSize": "16px",
+      "fontSizeSmall": "14px",
+      "fontSizeLarge": "18px",
+      "fontSizeH1": "36px",
+      "fontSizeH2": "30px",
+      "fontSizeH3": "24px",
+      "fontSizeH4": "20px",
+      "fontWeight": "400",
+      "fontWeightBold": "600",
+      "lineHeight": "1.7",
+      "lineHeightHeading": "1.4"
+    },
+    "spacing": {
+      "xs": "6px",
+      "sm": "12px",
+      "md": "20px",
+      "lg": "28px",
+      "xl": "36px",
+      "xxl": "52px",
+      "containerPadding": "28px",
+      "sectionSpacing": "56px"
+    },
+    "borders": {
+      "radius": "24px",
+      "radiusSmall": "12px",
+      "radiusLarge": "32px",
+      "radiusRound": "50%",
+      "width": "2px",
+      "widthThick": "3px",
+      "style": "solid"
+    },
+    "shadows": {
+      "small": "0 4px 12px rgba(180, 167, 214, 0.15)",
+      "medium": "0 8px 20px rgba(180, 167, 214, 0.2)",
+      "large": "0 16px 32px rgba(180, 167, 214, 0.25)",
+      "inset": "inset 0 2px 6px rgba(180, 167, 214, 0.1)"
+    },
+    "animations": {
+      "durationFast": "250ms",
+      "durationNormal": "500ms",
+      "durationSlow": "750ms",
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "easingEnter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "easingExit": "cubic-bezier(0.4, 0.0, 1, 1)"
+    },
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1600px"
+    },
+    "zIndex": {
+      "dropdown": "1000",
+      "modal": "1050",
+      "tooltip": "1060",
+      "notification": "1070"
+    }
+  }
+}

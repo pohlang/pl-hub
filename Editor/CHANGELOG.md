@@ -6,6 +6,101 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.0] - 2025-10-25
+
+### Changed
+- Updated for PLHub v0.7.0 - Enterprise-Grade UI Framework
+- Enhanced description to reflect enterprise-grade tooling capabilities
+- Fixed configuration descriptions to be more accurate and helpful
+
+### PLHub v0.7.0 Features
+This extension now supports projects built with PLHub v0.7.0, which includes:
+
+**Enhanced Widget System (30+ widgets)**
+- 13 new widget templates: slider, color_picker, date_picker, breadcrumb, pagination, flex_layout, data_table, line_chart, bar_chart, pie_chart, image_gallery, video_player, sidebar
+- Organized by category: Form, Display, Layout, Navigation, Data, Overlay, Media
+- All widgets use natural language PohLang syntax
+
+**Expanded Style System (14 themes)**
+- 8 new professional themes: nature_green, pastel_dream, creative_purple, corporate_blue, cyberpunk_neon, accessibility_optimized, minimal_white, high_performance_dark
+- Design token presets: Apple HIG, Material Design 3, Fluent Design
+- WCAG AAA accessibility compliance themes
+
+**Advanced Layout System**
+- 12-column responsive grid with breakpoints
+- Flexbox layouts with auto-placement
+- Stack layouts (horizontal/vertical)
+- Container queries and fluid typography
+
+**Navigation Framework**
+- Stack navigation with history management
+- Tab navigation with lazy loading
+- Drawer navigation with gestures
+- Modal navigation with focus trapping
+- Deep linking and state preservation
+
+**Enhanced Platform Tools (10x faster)**
+- Parallel build processing
+- Smart dependency caching
+- Incremental compilation
+- Build times: 60s → 6s
+
+**Component Library**
+- npm-style package management
+- Semantic versioning support
+- Dependency resolution
+- CDN integration
+
+**State Management**
+- Reactive observer pattern
+- Computed properties
+- Middleware support
+- Time-travel debugging
+
+**Animation Framework**
+- 25+ easing functions
+- Keyframe animations
+- Transition effects
+- Gesture animations
+- 60 FPS performance optimization
+
+**Design System Manager**
+- Apple HIG token support
+- Material Design 3 support
+- Fluent Design support
+- WCAG validation
+- Theme inheritance
+
+**Cross-Platform UX**
+- Native iOS patterns
+- Native Android patterns
+- Native Windows patterns
+- Native macOS patterns
+- Native Web patterns
+- Platform-specific component adaptation
+
+### Benefits for Extension Users
+- Create projects with 30+ widget templates
+- Apply 14 professional themes to projects
+- Access advanced layout and navigation tools
+- Use enterprise-grade build optimization
+- Leverage reactive state management
+- Create animated, responsive UIs
+- Build cross-platform apps with native UX
+
+### Configuration Updates
+- Improved setting descriptions for clarity
+- Better documentation for GitHub repository settings
+- Enhanced auto-update configuration guidance
+
+### Notes
+- Fully backward compatible with previous PLHub versions
+- All SDK management features remain unchanged
+- New features available through PLHub CLI commands
+
+---
+
+
 ## [0.2.5] - 2025-10-23
 
 ### Changed

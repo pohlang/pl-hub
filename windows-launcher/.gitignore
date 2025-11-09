@@ -1,0 +1,35 @@
+# PohLang / PLHub
+*.pbc
+*.pyc
+__pycache__/
+.plhub/
+build/
+dist/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+plhub_modules/
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Testing
+test-results/
+coverage/
+.pytest_cache/

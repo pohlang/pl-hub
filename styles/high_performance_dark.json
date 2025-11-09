@@ -1,0 +1,89 @@
+{
+  "key": "high_performance_dark",
+  "name": "High Performance Dark",
+  "description": "Optimized dark theme with reduced eye strain and performance-focused design for developer tools",
+  "tokens": {
+    "colors": {
+      "primary": "#61AFEF",
+      "primaryDark": "#528BCC",
+      "primaryLight": "#89C4F4",
+      "secondary": "#C678DD",
+      "accent": "#E5C07B",
+      "success": "#98C379",
+      "warning": "#D19A66",
+      "error": "#E06C75",
+      "info": "#56B6C2",
+      "background": "#1E1E1E",
+      "backgroundAlt": "#252525",
+      "surface": "#2D2D2D",
+      "surfaceAlt": "#3E3E3E",
+      "text": "#D4D4D4",
+      "textSecondary": "#9D9D9D",
+      "textOnPrimary": "#FFFFFF",
+      "border": "#404040",
+      "shadow": "rgba(0, 0, 0, 0.5)",
+      "overlay": "rgba(0, 0, 0, 0.75)"
+    },
+    "typography": {
+      "fontFamily": "JetBrains Mono, Cascadia Code, Consolas, monospace",
+      "fontFamilyHeading": "IBM Plex Sans, sans-serif",
+      "fontFamilyMono": "JetBrains Mono, monospace",
+      "fontSize": "14px",
+      "fontSizeSmall": "12px",
+      "fontSizeLarge": "16px",
+      "fontSizeH1": "28px",
+      "fontSizeH2": "24px",
+      "fontSizeH3": "20px",
+      "fontSizeH4": "16px",
+      "fontWeight": "400",
+      "fontWeightBold": "600",
+      "lineHeight": "1.5",
+      "lineHeightHeading": "1.2"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "12px",
+      "lg": "16px",
+      "xl": "24px",
+      "xxl": "32px",
+      "containerPadding": "16px",
+      "sectionSpacing": "32px"
+    },
+    "borders": {
+      "radius": "4px",
+      "radiusSmall": "2px",
+      "radiusLarge": "6px",
+      "radiusRound": "50%",
+      "width": "1px",
+      "widthThick": "2px",
+      "style": "solid"
+    },
+    "shadows": {
+      "small": "0 1px 3px rgba(0, 0, 0, 0.3)",
+      "medium": "0 4px 8px rgba(0, 0, 0, 0.4)",
+      "large": "0 8px 16px rgba(0, 0, 0, 0.5)",
+      "inset": "inset 0 1px 3px rgba(0, 0, 0, 0.2)"
+    },
+    "animations": {
+      "durationFast": "100ms",
+      "durationNormal": "200ms",
+      "durationSlow": "350ms",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "easingEnter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "easingExit": "cubic-bezier(0.4, 0.0, 1, 1)"
+    },
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1920px"
+    },
+    "zIndex": {
+      "dropdown": "1000",
+      "modal": "1050",
+      "tooltip": "1060",
+      "notification": "1070"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "key": "cyberpunk_neon",
+  "name": "Cyberpunk Neon",
+  "description": "Futuristic cyberpunk theme with neon colors and dark backgrounds, perfect for tech and gaming apps",
+  "tokens": {
+    "colors": {
+      "primary": "#FF00FF",
+      "primaryDark": "#CC00CC",
+      "primaryLight": "#FF66FF",
+      "secondary": "#00FFFF",
+      "accent": "#FFFF00",
+      "success": "#00FF00",
+      "warning": "#FFA500",
+      "error": "#FF0040",
+      "info": "#00BFFF",
+      "background": "#0A0A0F",
+      "backgroundAlt": "#1A1A2E",
+      "surface": "#16213E",
+      "surfaceAlt": "#0F3460",
+      "text": "#E0E0E0",
+      "textSecondary": "#B0B0B0",
+      "textOnPrimary": "#FFFFFF",
+      "border": "#FF00FF",
+      "shadow": "rgba(255, 0, 255, 0.5)",
+      "overlay": "rgba(0, 0, 0, 0.8)"
+    },
+    "typography": {
+      "fontFamily": "Orbitron, Rajdhani, sans-serif",
+      "fontFamilyHeading": "Orbitron, sans-serif",
+      "fontFamilyMono": "Share Tech Mono, monospace",
+      "fontSize": "16px",
+      "fontSizeSmall": "14px",
+      "fontSizeLarge": "18px",
+      "fontSizeH1": "42px",
+      "fontSizeH2": "34px",
+      "fontSizeH3": "26px",
+      "fontSizeH4": "20px",
+      "fontWeight": "400",
+      "fontWeightBold": "700",
+      "lineHeight": "1.5",
+      "lineHeightHeading": "1.2"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "xxl": "48px",
+      "containerPadding": "24px",
+      "sectionSpacing": "48px"
+    },
+    "borders": {
+      "radius": "0px",
+      "radiusSmall": "0px",
+      "radiusLarge": "4px",
+      "radiusRound": "50%",
+      "width": "2px",
+      "widthThick": "3px",
+      "style": "solid"
+    },
+    "shadows": {
+      "small": "0 0 10px rgba(255, 0, 255, 0.5)",
+      "medium": "0 0 20px rgba(255, 0, 255, 0.6)",
+      "large": "0 0 30px rgba(255, 0, 255, 0.7)",
+      "inset": "inset 0 0 10px rgba(255, 0, 255, 0.3)"
+    },
+    "animations": {
+      "durationFast": "100ms",
+      "durationNormal": "250ms",
+      "durationSlow": "400ms",
+      "easing": "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      "easingEnter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "easingExit": "cubic-bezier(0.4, 0.0, 1, 1)"
+    },
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1920px"
+    },
+    "zIndex": {
+      "dropdown": "1000",
+      "modal": "1050",
+      "tooltip": "1060",
+      "notification": "1070"
+    }
+  }
+}

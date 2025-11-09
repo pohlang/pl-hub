@@ -1,0 +1,8 @@
+{
+  "name": "windows-launcher",
+  "description": "A basic PohLang project: windows-launcher",
+  "version": "1.0.0",
+  "main": "src/main.poh",
+  "dependencies": {},
+  "dev_dependencies": {}
+}

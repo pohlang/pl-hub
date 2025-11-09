@@ -1,0 +1,59 @@
+Start Program
+
+# Example: PohLang v0.5.0 Features
+# Demonstrates Phase 1 phrasal expressions
+
+Write "==================================="
+Write "  PohLang v0.5.0 Examples"
+Write "==================================="
+Write ""
+
+# Variables
+Write "1. Variables:"
+Set message to "Hello from PohLang"
+Write "   " plus message
+Write ""
+
+# Arithmetic with phrasal expressions
+Write "2. Arithmetic & Phrasal Expressions:"
+Set numbers to [10, 20, 5, 15]
+Set sum to total of numbers
+Set min to smallest in numbers
+Set max to largest in numbers
+Write "   Numbers: [10, 20, 5, 15]"
+Write "   Total: " plus sum
+Write "   Smallest: " plus min
+Write "   Largest: " plus max
+Write ""
+
+# String operations
+Write "3. String Operations:"
+Set greeting to "hello world"
+Set upper to make uppercase greeting
+Set clean to trim spaces from "  spaced  "
+Write "   Original: " plus greeting
+Write "   Uppercase: " plus upper
+Write "   Trimmed: [" plus clean plus "]"
+Write ""
+
+# Collection operations
+Write "4. Collections:"
+Set fruits to ["apple", "banana", "orange"]
+Set count to count of fruits
+Set first to first in fruits
+Set last to last in fruits
+Write "   Fruits: " plus join fruits with ", "
+Write "   Count: " plus count
+Write "   First: " plus first plus ", Last: " plus last
+Write ""
+
+# Conditionals
+Write "5. Conditionals:"
+Set temperature to 25
+If temperature is greater than 20
+    Write "   It's warm outside!"
+Otherwise
+    Write "   It's cool outside."
+End If
+
+End Program

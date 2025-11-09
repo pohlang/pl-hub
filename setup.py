@@ -15,10 +15,10 @@ long_description = readme_file.read_text(encoding="utf-8") if readme_file.exists
 
 setup(
     name="plhub",
-    version="0.6.7",
+    version="0.7.0",
     author="PohLang Team",
     author_email="contact@pohlang.org",
-    description="PL-Hub: The comprehensive development environment for PohLang",
+    description="PL-Hub: Enterprise-grade UI framework with comprehensive tooling for PohLang",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AlhaqGH/PLHub",
@@ -70,12 +70,15 @@ setup(
         "Examples": ["*.poh"],
         "templates": ["*"],
         "docs": ["*.md"],
-        "tools": ["*"],
+        "tools": ["*.py"],
         "widgets": [
             "README.md",
             "templates/*.json",
         ],
-        "styles": ["*.json"],
+        "styles": [
+            "*.json",
+            "design-tokens/*.json",
+        ],
         "Runtime": [
             "pohlang_metadata.json",
             "Interpreter/*.py",

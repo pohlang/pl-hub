@@ -1,0 +1,219 @@
+Start Program
+
+# ============================================
+# Windows Desktop Launcher
+# A desktop launcher built with PohLang
+# ============================================
+
+Write "======================================================"
+Write "      Windows Desktop Launcher v1.0"
+Write "      Advanced System Control & App Management"
+Write "======================================================"
+Write ""
+
+Write "Welcome to Windows Desktop Launcher!"
+Write ""
+Write "This launcher demonstrates:"
+Write "  - Application management"
+Write "  - System controls"
+Write "  - Process monitoring"
+Write "  - File operations"
+Write "  - Settings customization"
+Write ""
+
+# Main Menu
+Write "=================================================="
+Write "                  MAIN MENU"
+Write "=================================================="
+Write ""
+Write "  [1] Launch Applications"
+Write "  [2] Process Manager"
+Write "  [3] System Controls"
+Write "  [4] File Operations"
+Write "  [5] Settings"
+Write "  [0] Exit"
+Write ""
+
+Write "Enter your choice: "
+Ask for choice
+
+# Handle choice
+If choice equals "1"
+    Write ""
+    Write "=================================================="
+    Write "            APPLICATION LAUNCHER"
+    Write "=================================================="
+    Write ""
+    Write "Installed Applications:"
+    Write ""
+    Write "  [1] Visual Studio Code"
+    Write "  [2] Chrome Browser"
+    Write "  [3] File Explorer"
+    Write "  [4] Windows Terminal"
+    Write "  [5] Task Manager"
+    Write "  [6] Windows Settings"
+    Write "  [7] Calculator"
+    Write "  [8] Notepad"
+    Write ""
+    Write "Select application: "
+    Ask for app_choice
+    
+    If app_choice equals "1"
+        Write "Launching Visual Studio Code..."
+        Write "VSCode opened successfully!"
+    End If
+    
+    If app_choice equals "2"
+        Write "Launching Chrome Browser..."
+        Write "Chrome opened successfully!"
+    End If
+    
+    If app_choice equals "3"
+        Write "Launching File Explorer..."
+        Write "Explorer opened successfully!"
+    End If
+    
+    If app_choice equals "4"
+        Write "Launching Windows Terminal..."
+        Write "Terminal opened successfully!"
+    End If
+    
+    If app_choice equals "5"
+        Write "Launching Task Manager..."
+        Write "Task Manager opened successfully!"
+    End If
+End If
+
+If choice equals "2"
+    Write ""
+    Write "=================================================="
+    Write "               PROCESS MANAGER"
+    Write "=================================================="
+    Write ""
+    Write "Top Running Processes:"
+    Write ""
+    Write "  PID    NAME                 CPU     MEMORY"
+    Write "  -----  -------------------  ------  ----------"
+    Write "  1234   chrome.exe           12.3    450 MB"
+    Write "  5678   code.exe             8.5     320 MB"
+    Write "  9012   explorer.exe         2.1     180 MB"
+    Write "  3456   system               0.5     120 MB"
+    Write "  7890   svchost.exe          0.3     80 MB"
+    Write ""
+    Write "Process monitoring active"
+End If
+
+If choice equals "3"
+    Write ""
+    Write "=================================================="
+    Write "              SYSTEM CONTROLS"
+    Write "=================================================="
+    Write ""
+    Write "System Information:"
+    Write "  OS: Windows 11 23H2"
+    Write "  Build: 22631"
+    Write "  Uptime: 2 days, 5 hours"
+    Write ""
+    Write "Power Options:"
+    Write "  [1] Lock PC"
+    Write "  [2] Sleep"
+    Write "  [3] Restart"
+    Write "  [4] Shutdown"
+    Write "  [5] Sign Out"
+    Write ""
+    Write "Select action: "
+    Ask for power_choice
+    
+    If power_choice equals "1"
+        Write "Locking PC..."
+        Write "PC locked successfully"
+    End If
+    
+    If power_choice equals "2"
+        Write "Putting system to sleep..."
+        Write "Sleep mode activated"
+    End If
+    
+    If power_choice equals "3"
+        Write "Restarting system..."
+        Write "System will restart in 10 seconds"
+    End If
+    
+    If power_choice equals "4"
+        Write "Shutting down system..."
+        Write "System will shut down in 10 seconds"
+    End If
+End If
+
+If choice equals "4"
+    Write ""
+    Write "=================================================="
+    Write "               FILE OPERATIONS"
+    Write "=================================================="
+    Write ""
+    Write "Quick Access Locations:"
+    Write ""
+    Write "  [1] Home Directory"
+    Write "  [2] Documents"
+    Write "  [3] Downloads"
+    Write "  [4] Pictures"
+    Write "  [5] Desktop"
+    Write ""
+    Write "Select location: "
+    Ask for file_choice
+    
+    If file_choice equals "1"
+        Write "Opening Home Directory..."
+        Write "Location: C:\\Users\\habib"
+        Write "Folder opened successfully"
+    End If
+    
+    If file_choice equals "2"
+        Write "Opening Documents..."
+        Write "Location: C:\\Users\\habib\\Documents"
+        Write "Folder opened successfully"
+    End If
+    
+    If file_choice equals "3"
+        Write "Opening Downloads..."
+        Write "Location: C:\\Users\\habib\\Downloads"
+        Write "Folder opened successfully"
+    End If
+End If
+
+If choice equals "5"
+    Write ""
+    Write "=================================================="
+    Write "                  SETTINGS"
+    Write "=================================================="
+    Write ""
+    Write "Launcher Settings:"
+    Write ""
+    Write "  Theme: Dark"
+    Write "  Notifications: Enabled"
+    Write "  Startup: Launch at boot"
+    Write "  Hotkey: Win+Space"
+    Write "  Auto-update: Enabled"
+    Write ""
+    Write "Display Options:"
+    Write "  Icon size: Medium"
+    Write "  Show system stats: Yes"
+    Write "  Recent apps: 5"
+    Write ""
+    Write "Settings displayed successfully"
+End If
+
+If choice equals "0"
+    Write ""
+    Write "Shutting down Windows Launcher..."
+    Write "Thank you for using Windows Desktop Launcher!"
+End If
+
+Write ""
+Write "=================================================="
+Write ""
+Write "Windows Desktop Launcher - Built with PohLang"
+Write "System control in natural language"
+Write ""
+
+End Program

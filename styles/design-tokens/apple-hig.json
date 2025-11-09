@@ -1,0 +1,208 @@
+{
+  "name": "Apple Human Interface Guidelines",
+  "description": "Apple's iOS/macOS design system tokens",
+  "version": "1.0.0",
+  "colors": {
+    "blue": {
+      "base": "#007AFF",
+      "variants": {
+        "light": "#5AC8FA",
+        "dark": "#0A84FF"
+      }
+    },
+    "green": {
+      "base": "#34C759",
+      "variants": {
+        "light": "#30D158",
+        "dark": "#32D74B"
+      }
+    },
+    "indigo": {
+      "base": "#5856D6",
+      "variants": {
+        "light": "#5E5CE6",
+        "dark": "#5E5CE6"
+      }
+    },
+    "orange": {
+      "base": "#FF9500",
+      "variants": {
+        "light": "#FF9F0A",
+        "dark": "#FF9F0A"
+      }
+    },
+    "pink": {
+      "base": "#FF2D55",
+      "variants": {
+        "light": "#FF375F",
+        "dark": "#FF375F"
+      }
+    },
+    "purple": {
+      "base": "#AF52DE",
+      "variants": {
+        "light": "#BF5AF2",
+        "dark": "#BF5AF2"
+      }
+    },
+    "red": {
+      "base": "#FF3B30",
+      "variants": {
+        "light": "#FF453A",
+        "dark": "#FF453A"
+      }
+    },
+    "teal": {
+      "base": "#5AC8FA",
+      "variants": {
+        "light": "#64D2FF",
+        "dark": "#64D2FF"
+      }
+    },
+    "yellow": {
+      "base": "#FFCC00",
+      "variants": {
+        "light": "#FFD60A",
+        "dark": "#FFD60A"
+      }
+    },
+    "gray": {
+      "base": "#8E8E93",
+      "variants": {
+        "1": "#F2F2F7",
+        "2": "#E5E5EA",
+        "3": "#D1D1D6",
+        "4": "#C7C7CC",
+        "5": "#AEAEB2",
+        "6": "#8E8E93"
+      }
+    }
+  },
+  "typography": {
+    "base_size": 17,
+    "scale_ratio": 1.176,
+    "line_height_ratio": 1.294,
+    "font_family": "-apple-system, BlinkMacSystemFont, 'SF Pro', sans-serif",
+    "font_weights": {
+      "ultralight": 100,
+      "thin": 200,
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "heavy": 800,
+      "black": 900
+    },
+    "scale": {
+      "large-title": {
+        "fontSize": "34px",
+        "lineHeight": "41px",
+        "fontWeight": 400,
+        "letterSpacing": "0.37px"
+      },
+      "title-1": {
+        "fontSize": "28px",
+        "lineHeight": "34px",
+        "fontWeight": 400,
+        "letterSpacing": "0.36px"
+      },
+      "title-2": {
+        "fontSize": "22px",
+        "lineHeight": "28px",
+        "fontWeight": 400,
+        "letterSpacing": "0.35px"
+      },
+      "title-3": {
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "fontWeight": 400,
+        "letterSpacing": "0.38px"
+      },
+      "headline": {
+        "fontSize": "17px",
+        "lineHeight": "22px",
+        "fontWeight": 600,
+        "letterSpacing": "-0.41px"
+      },
+      "body": {
+        "fontSize": "17px",
+        "lineHeight": "22px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.41px"
+      },
+      "callout": {
+        "fontSize": "16px",
+        "lineHeight": "21px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.32px"
+      },
+      "subheadline": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.24px"
+      },
+      "footnote": {
+        "fontSize": "13px",
+        "lineHeight": "18px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.08px"
+      },
+      "caption-1": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "caption-2": {
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "fontWeight": 400,
+        "letterSpacing": "0.07px"
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": 8,
+    "scale": {
+      "0": "0px",
+      "1": "8px",
+      "2": "16px",
+      "3": "24px",
+      "4": "32px",
+      "5": "40px",
+      "6": "48px"
+    }
+  },
+  "shadows": {
+    "small": {
+      "value": "0px 1px 3px rgba(0, 0, 0, 0.12)"
+    },
+    "medium": {
+      "value": "0px 4px 12px rgba(0, 0, 0, 0.15)"
+    },
+    "large": {
+      "value": "0px 8px 24px rgba(0, 0, 0, 0.2)"
+    }
+  },
+  "radii": {
+    "small": "6px",
+    "medium": "10px",
+    "large": "14px",
+    "continuous": "continuous"
+  },
+  "durations": {
+    "instant": "0ms",
+    "immediate": "100ms",
+    "quick": "200ms",
+    "moderate": "300ms",
+    "deliberate": "500ms"
+  },
+  "easing": {
+    "ease-in": "cubic-bezier(0.42, 0, 1, 1)",
+    "ease-out": "cubic-bezier(0, 0, 0.58, 1)",
+    "ease-in-out": "cubic-bezier(0.42, 0, 0.58, 1)",
+    "spring": "cubic-bezier(0.5, 1.8, 0.9, 0.8)"
+  }
+}
